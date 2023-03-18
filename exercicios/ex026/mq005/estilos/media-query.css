@@ -1,18 +1,26 @@
 @charset "UFT-8";
 
+@media screen and (min-width: 768px) {   
+    #burguer {
+        display: none;
+    }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {   /*tablet*/
+    nav {
+        display: block;
+    }
 
+    nav li {
+        display: inline-block;
+    }
 
+    nav a {
+        border-radius: 5px;
+        background-color: rgba(177, 31, 72, 0.677);
+        border-top: none;
+    }
+
+    main {
+        width: 768px; /*quando a tela começar ficar muito larga essa config fixa de width que vai valer, e não 90vw*/
+    }
 }
 
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {  /*desktop*/
-
-}
-
-
-
-@media screen (min-width: 1200px) { /*grandes telas*/
-
-}

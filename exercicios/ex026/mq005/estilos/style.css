@@ -32,7 +32,6 @@ header h1 {
 #burguer:hover {
     background-color: gray;
     color: white;
-
 }
 
 nav {
@@ -43,7 +42,6 @@ nav ul {
     list-style-type: none;
 }
 
-
 nav a {
     display: block;
     text-decoration: none;
@@ -53,14 +51,11 @@ nav a {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.364);
     padding: 10px;
     border-top: 2px solid gray;
-
 }
-
 
 nav a:hover {
     background-color: rgb(146, 144, 144);
 }
-
 
 main {
     background-color: white;
